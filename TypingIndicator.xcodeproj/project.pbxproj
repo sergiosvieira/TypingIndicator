@@ -16,6 +16,10 @@
 		3A410E6317A8003500DAC56F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A410E6217A8003500DAC56F /* Default.png */; };
 		3A410E6517A8003500DAC56F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A410E6417A8003500DAC56F /* Default@2x.png */; };
 		3A410E6717A8003500DAC56F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A410E6617A8003500DAC56F /* Default-568h@2x.png */; };
+		3A410E6F17A8008B00DAC56F /* UITypingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A410E6E17A8008B00DAC56F /* UITypingIndicator.m */; };
+		3A410E7317A800CF00DAC56F /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A410E7117A800CF00DAC56F /* SampleViewController.m */; };
+		3A410E7417A800CF00DAC56F /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A410E7217A800CF00DAC56F /* SampleViewController.xib */; };
+		3A410E7617A8015700DAC56F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A410E7517A8015600DAC56F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		3A410E6217A8003500DAC56F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3A410E6417A8003500DAC56F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3A410E6617A8003500DAC56F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3A410E6D17A8008B00DAC56F /* UITypingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITypingIndicator.h; path = TypingIndicator/UITypingIndicator.h; sourceTree = "<group>"; };
+		3A410E6E17A8008B00DAC56F /* UITypingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITypingIndicator.m; path = TypingIndicator/UITypingIndicator.m; sourceTree = "<group>"; };
+		3A410E7017A800CF00DAC56F /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		3A410E7117A800CF00DAC56F /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		3A410E7217A800CF00DAC56F /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		3A410E7517A8015600DAC56F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A410E7617A8015700DAC56F /* QuartzCore.framework in Frameworks */,
 				3A410E5117A8003500DAC56F /* UIKit.framework in Frameworks */,
 				3A410E5317A8003500DAC56F /* Foundation.framework in Frameworks */,
 				3A410E5517A8003500DAC56F /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +79,7 @@
 		3A410E4F17A8003500DAC56F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A410E7517A8015600DAC56F /* QuartzCore.framework */,
 				3A410E5017A8003500DAC56F /* UIKit.framework */,
 				3A410E5217A8003500DAC56F /* Foundation.framework */,
 				3A410E5417A8003500DAC56F /* CoreGraphics.framework */,
@@ -81,6 +93,11 @@
 				3A410E5F17A8003500DAC56F /* AppDelegate.h */,
 				3A410E6017A8003500DAC56F /* AppDelegate.m */,
 				3A410E5717A8003500DAC56F /* Supporting Files */,
+				3A410E6D17A8008B00DAC56F /* UITypingIndicator.h */,
+				3A410E6E17A8008B00DAC56F /* UITypingIndicator.m */,
+				3A410E7017A800CF00DAC56F /* SampleViewController.h */,
+				3A410E7117A800CF00DAC56F /* SampleViewController.m */,
+				3A410E7217A800CF00DAC56F /* SampleViewController.xib */,
 			);
 			path = TypingIndicator;
 			sourceTree = "<group>";
@@ -154,6 +171,7 @@
 				3A410E6317A8003500DAC56F /* Default.png in Resources */,
 				3A410E6517A8003500DAC56F /* Default@2x.png in Resources */,
 				3A410E6717A8003500DAC56F /* Default-568h@2x.png in Resources */,
+				3A410E7417A800CF00DAC56F /* SampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +184,8 @@
 			files = (
 				3A410E5D17A8003500DAC56F /* main.m in Sources */,
 				3A410E6117A8003500DAC56F /* AppDelegate.m in Sources */,
+				3A410E6F17A8008B00DAC56F /* UITypingIndicator.m in Sources */,
+				3A410E7317A800CF00DAC56F /* SampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
